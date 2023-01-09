@@ -45,6 +45,7 @@ namespace IT_Test
             false_answear = Form4.False;
         }
 
+        // Нажатие на кнопку "Назад".
         private void button1_Click(object sender, EventArgs e)
         {
             // Спрятать текущий вопрос.
