@@ -34,7 +34,7 @@ namespace IT_Test
             false_answear += f;
         }
 
-        // Конструктор для кнопки "Назад" из следущей формы.v
+        // Конструктор для кнопки "Назад" из следущей формы.
         public Form10()
         {
             InitializeComponent();
