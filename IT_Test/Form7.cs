@@ -75,11 +75,11 @@ namespace IT_Test
                 false_answear++;
 
             // Статические переменные, содержащие результаты
-            // ответов данного вопроса
+            // ответов данного вопроса.
             True = true_answear;
             False = false_answear;
 
-            // Передать ответы в следущий вопрос
+            // Передать ответы в следущий вопрос.
             Form8 form8 = new Form8(true_answear, false_answear);
             // Показать следущий вопрос.
             form8.ShowDialog();
