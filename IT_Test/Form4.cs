@@ -47,6 +47,7 @@ namespace IT_Test
             false_answear = Form3.False;
         }
 
+        // Нажатие на кнопку "Назад".
         private void button1_Click(object sender, EventArgs e)
         {
             // Спрятать текущий вопрос.
@@ -59,6 +60,7 @@ namespace IT_Test
             Close();
         }
 
+        // Нажатие на кнопку "Дальше".
         private void button2_Click(object sender, EventArgs e)
         {
             // Скрыть текущую форму.
