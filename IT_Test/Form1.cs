@@ -17,6 +17,8 @@ namespace IT_Test
         public int true_answear = 0;
         public int false_answear = 0;
 
+        // Статические переменные, которые будут содержать в себе
+        // результаты ответа на текущий вопрос.
         public static int True;
         public static int False;
 
