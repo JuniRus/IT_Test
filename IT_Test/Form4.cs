@@ -18,6 +18,8 @@ namespace IT_Test
         public int true_answear = 0;
         public int false_answear = 0;
 
+        // Статические переменные, которые будут содержать в себе
+        // результаты ответа на текущий вопрос.
         public static int True;
         public static int False;
 
@@ -25,6 +27,7 @@ namespace IT_Test
         public Form4(int t, int f)
         {
             InitializeComponent();
+            // Явно выбрать изначально первый ответ.
             radioButton1.Checked = true;
 
             // Сохранение ответов из предыдущей формы.
@@ -32,11 +35,14 @@ namespace IT_Test
             false_answear += f;
         }
 
+        // Конструктор для кнопки "Назад" из следущей формы.
         public Form4()
         {
             InitializeComponent();
+            // Явно выбрать изначально первый ответ.
             radioButton1.Checked = true;
 
+            // Взять результаты ответов предыдущей формы.
             true_answear = Form3.True;
             false_answear = Form3.False;
         }
@@ -68,6 +74,8 @@ namespace IT_Test
             else if (radioButton4.Checked)
                 false_answear++;
 
+            // Статические переменные, содержащие результаты
+            // ответов данного вопроса
             True = true_answear;
             False = false_answear;
 
